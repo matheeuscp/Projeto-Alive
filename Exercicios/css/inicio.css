@@ -1,0 +1,59 @@
+/*======RESET======*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+body{background-color: #fff;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+/*====CENTRO====*/
+.container{
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	text-align: center;
+}
+.logo{
+	background: url(../img/logo2.png) center center/314px no-repeat;
+	float: center;
+}
+.promocao{
+	width: 100%;
+	text-align: center;
+	padding-top: 10%;
+}
+.promocao img{
+	padding-bottom: 9%;
+	border-radius: 7px 7px 0 0;
+}
+/*=====BOTAO MENU====*/
+.btn-menu{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: #555555;
+	cursor: pointer;
+	border-radius: 10%;
+	color: black;
+	border: 1px solid black;
+	background: #fff;
+	margin-bottom: 3%;
+}
+.inner{
+	padding: 7%;
+}
+.btn-menu:hover{
+	font-size: 110%;
+}
+/*=====RODAPE====*/
+.copy{
+	color: black;
+	text-align: center;
+}
